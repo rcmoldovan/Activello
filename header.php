@@ -42,13 +42,13 @@
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
+
 						</div>
 						<?php activello_header_menu(); // main navigation ?>
 
-						<div class="nav-search"><?php 
-                            add_filter('get_search_form', 'activello_header_search_filter',10,3);
-                            echo get_search_form();
-                            remove_filter('get_search_form', 'activello_header_search_filter');?>							
+
+						<div class="nav-search">
+							<?php if( !get_theme_mod('footer_social') ) activello_social_icons();?>
 						</div>
 					</div>
 				</div>

@@ -769,15 +769,20 @@ object {
 ul#menu-social-items,
 #secondary .widget .social-icons {
   margin-bottom: 0;
+
 }
 ul.children, ul.children li {
     border: 0;
     margin: 0;
+
 }
 
 /* Custom Category Widget */
 .cats-widget ul li span {
   float: right;
+}
+.textwidget {
+  text-align: center;
 }
 /* Recent Post widgets */
 .recent-posts-wrapper .post {
@@ -948,7 +953,7 @@ input[type=submit] {
 /* =Custom Styles
 ----------------------------------------------- */
 #logo {
-  padding: 50px 0 45px 0;
+  padding: 0;
   text-align: center;
 }
 #line {
@@ -1131,7 +1136,7 @@ letter-spacing: 1px;
 }
 .nav-search {
   float: right;
-  padding: 18px 0;
+  padding: 18px 0 0 0;
 }
 .nav-search input {
   border: 0;
